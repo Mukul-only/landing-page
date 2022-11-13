@@ -19,7 +19,7 @@ h3{
     
 }
 #title{
-    padding:5% 12% 10%;
+    padding:5% 14% 10%;
     background-image:linear-gradient(to right,#023e8a,#48cae4);
 }
 .navbar{
@@ -52,16 +52,32 @@ h3{
 
 @media (max-width:991px){
     #title{
-        padding-bottom: 60%;
+        padding: 5% 5% 80%;
+        
+    }
+    .navbar-brand{
+        width:70%;
+    }
+    .brand-name{
+        font-size: 1.3rem;
+    }
+    .nav-item{
+        font-size:1rem;
+    }
+    h1{
+        font-size: 2rem;
     }
     .title-text{
         text-align: center;
+        
     }
     .title-image{
         display:block;
         margin:auto;    
-        margin-top:30%;
+        margin-top:20%;
     }
+
+ 
 }
 /* features */
 #features{
@@ -104,6 +120,7 @@ h3{
     padding:1% 2%;
 }
 
+
 /* call to action */
 #cta{
     padding:7% 14%;
@@ -145,4 +162,30 @@ h3{
 }
 .contact-ico{
     margin:10px 8px;
+}
+
+@media (max-width:991px){
+    h2{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size:1.2rem;
+    }
+    #os p,p{
+        font-size:0.8rem;
+    }
+    #cta p{
+        font-size:0.8rem;
+        padding:3%;
+    }
+    
+    .sc,.lg{
+        font-size:0.8rem;
+    }
+    #footer p{
+        font-size:0.7rem;
+    }
+    .contact-ico{
+        margin:10px 5px;
+    }
 }
