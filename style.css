@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;900&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&display=swap');
 body{
     font-family: 'Montserrat', sans-serif;;
 }
@@ -189,3 +190,25 @@ h3{
         margin:10px 5px;
     }
 }
+
+/* our team */
+#aboutus{
+    padding:7% 14%;
+}
+.flexrow{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-between;
+    row-gap: 30px;
+    margin-top:3%;
+}
+.flexCol h3{
+    font-family: 'Nunito', sans-serif;
+    font-size:1rem;
+}
+.flexCol{
+
+    width:150px;
+}
+
