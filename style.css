@@ -210,6 +210,10 @@ h3{
 .flexCol{
 
     width:150px;
+
+}
+.flexCol a:hover{
+    text-decoration: none;
 }
 
 @media (max-width:991px){
