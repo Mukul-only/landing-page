@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Rubik+Distressed&family=Ubuntu&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+    font-family: 'Rubik Distressed', cursive;
+    
+    font-size: 5rem;
+}
+h2{
+    font-weight: 900;
+    font-size: 2rem;
+}
+h3{
+    font-weight: 700;
+}
+#title{
+    padding:7% 14%;
+    text-align: center;
+    background-image: linear-gradient(to right,#3c096c,#c77dff);
+    color:white;
+}
+nav{
+    text-align: left;
+    margin-bottom:7%;
+}
+.logo{
+    width:30px;
+    margin-right:10px;
+}
+nav a{
+    font-family: 'Ubuntu', sans-serif;
+    color:white;
+    font-size: 1.5rem;
+}
+nav a:hover{
+    color:rgb(218, 218, 218);
+    text-decoration: none;
+}
+#role{
+    padding:7% 14%;
+    text-align: center;
+}
+.ico{
+    color:#580f9d;
+    padding:3%;
+}
+.ico:hover{
+    color:#3c096c;
+}
+.content{
+    margin-top:5%;
+}
+.content p{
+    color:#8f8f8f;
+
+}
+#footer{
+    padding:7% 14% 1%;
+    text-align: center;
+    color:white;
+    background-image: linear-gradient(to bottom right,#3c096c,#c77dff);
+}
+#footer i{
+    padding:8px 10px;
+}
+#footer img{
+    margin-bottom:10px;
+    
+}
+@media (max-width:991px){
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size:1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    p{
+        font-size:0.6rem;
+    }
+    #footer i{
+        padding:5px;
+    }
+}
